@@ -13,7 +13,6 @@
   "type": "module",
   "dependencies": {
     "@apollo/server": "^4.10.0",
-    "axios": "^1.6.5",
-    "graphql": "^16.8.1"
+    "axios": "^1.6.5"
   }
 }
