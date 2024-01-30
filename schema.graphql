@@ -13,7 +13,7 @@ type StarshipFilmsConnection {
 
 type Vehicle {
   id: ID!
-  name: String
+  vehicleName: String
   model: String
   crew: String
   passengers: String
@@ -23,7 +23,7 @@ type Vehicle {
 
 type Starship {
   id: ID!
-  name: String
+  shipName: String
   model: String
   crew: String
   passengers: String

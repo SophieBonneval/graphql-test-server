@@ -39,7 +39,7 @@ const resolvers = {
           query {
             allVehicles {
               vehicles {
-                name
+                vehicleName: name
                 filmConnection {
                   films {
                     title
@@ -60,7 +60,7 @@ const resolvers = {
             allStarships {
               starships {
                 id
-                name
+                shipName: name
                 crew
                 costInCredits
                 MGLT
